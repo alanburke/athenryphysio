@@ -1,0 +1,42 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+@import "foundation/components/global";
+@import "foundation/components/type";
+@import "foundation/components/global";
+@import "foundation/components/buttons";
+@import "foundation/components/button-groups";
+
+@import "compass/typography/lists/horizontal-list";
+
+/* Secondary Nav */
+.secondary{
+  @include horizontal-list;
+  li {
+    border-right: solid 2px black;
+    padding: 0 10px;
+    &:last-child{
+      border-right: 0;
+    }
+  }
+}
+
+/* Primary Nav */
+@import 'susy';
+
+$total-columns  : 6;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+.primary {
+  @include horizontal-list;
+  li {
+    @include span-columns(1);
+    &:nth-child(3n+1) {
+      clear: both;
+    }
+  }
+}
