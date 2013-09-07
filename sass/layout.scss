@@ -1,0 +1,44 @@
+@import 'susy';
+
+$total-columns  : 6;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$medium: 10;
+$large: 12;
+
+.page {
+  @include container($total-columns, $medium, $large);
+  @include susy-grid-background;
+}
+
+@include at-breakpoint($medium) {
+  header{
+    h1 {
+      @include span-columns(4, $medium);
+    }
+    .intro,
+    .secondary {
+      @include span-columns(6 omega, $medium);
+    }
+    .primary{
+      clear: both;
+    }
+  }
+  main {
+    section {
+      @include pre(0.5);
+      @include span-columns(6, $medium);
+      @include post(0.5);
+
+    }
+    aside {
+      @include span-columns(3 omega, $medium);
+
+    }
+  }
+ footer {
+  clear: both;
+ }
+}
