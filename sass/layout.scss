@@ -1,17 +1,9 @@
 @import 'susy';
-
-$total-columns  : 6;
-$column-width   : 4em;
-$gutter-width   : 1em;
-$grid-padding   : $gutter-width;
-
-$medium: 10 lt-ie9;
-$medium-cols: 10;
-$large: 12;
+@import 'settings';
 
 .page {
   @include container($total-columns, $medium, $large);
-  @include susy-grid-background;
+  //@include susy-grid-background;
 }
 
 .page {
