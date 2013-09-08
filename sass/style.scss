@@ -6,7 +6,6 @@
 
 @import "foundation/components/global";
 @import "foundation/components/type";
-@import "foundation/components/global";
 @import "foundation/components/buttons";
 @import "foundation/components/button-groups";
 
@@ -25,16 +24,9 @@
 }
 
 /* Primary Nav */
-@import 'susy';
-
-$total-columns  : 6;
-$column-width   : 4em;
-$gutter-width   : 1em;
-$grid-padding   : $gutter-width;
 .primary {
   @include horizontal-list;
   li {
-    @include span-columns(1);
     &:nth-child(3n+1) {
       clear: both;
     }
