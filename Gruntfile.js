@@ -8,7 +8,7 @@ var mountFolder = function (connect, dir) {
 
 // Directory reference:
 //   css: css
-//   sass: _scss
+//   compass: _scss
 //   javascript: js
 //   images: img
 //   fonts: fonts
@@ -28,13 +28,9 @@ module.exports = function (grunt) {
   grunt.initConfig({
     yeoman: yeomanConfig,
     watch: {
-      sass: {
+      compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['sass:server', 'autoprefixer:server']
-      },
-      prefixCss: {
-        files: ['<%= yeoman.app %>/css/**/*.css'],
-        tasks: ['copy:stageCss', 'autoprefixer:server']
+        tasks: ['compass:server']
       },
       jekyll: {
         files: [
@@ -50,7 +46,7 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '.tmp/css/**/*.css',
+          '{.tmp,<%= yeoman.app %>}/css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
           '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
         ]
@@ -117,55 +113,31 @@ module.exports = function (grunt) {
       },
       server: ['.tmp', '.jekyll']
     },
-    sass: {
+    compass: {
       options: {
+        // If you're using global Sass gems, require them here.
+        // require: ['singularity', 'jacket'],
         bundleExec: true,
-        debugInfo: false,
-        lineNumbers: false,
-        loadPath: 'app/_bower_components'
+        sassDir: '<%= yeoman.app %>/_scss',
+        cssDir: '.tmp/css',
+        imagesDir: '<%= yeoman.app %>/img',
+        javascriptsDir: '<%= yeoman.app %>/js',
+        relativeAssets: false,
+        httpImagesPath: '/img',
+        httpGeneratedImagesPath: '/img/generated',
+        outputStyle: 'expanded',
+        raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
       },
       dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/_scss',
-          src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
-          ext: '.css'
-        }]
+        options: {
+          generatedImagesDir: '<%= yeoman.dist %>/img/generated'
+        }
       },
       server: {
         options: {
           debugInfo: true,
-          lineNumbers: true
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/_scss',
-          src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
-          ext: '.css'
-        }]
-      }
-    },
-    autoprefixer: {
-      options: {
-        browsers: ['last 2 versions']
-      },
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>/css',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>/css'
-        }]
-      },
-      server: {
-        files: [{
-          expand: true,
-          cwd: '.tmp/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
-        }]
+          generatedImagesDir: '.tmp/img/generated'
+        }
       }
     },
     jekyll: {
@@ -203,6 +175,7 @@ module.exports = function (grunt) {
         bundleExec: true,
         minMatch: 2,
         ignoreSassMixins: false,
+        compass: true,
         colorize: true,
         shorthand: false,
         verbose: true
@@ -313,16 +286,6 @@ module.exports = function (grunt) {
           ],
           dest: '<%= yeoman.dist %>'
         }]
-      },
-      // Copy CSS into .tmp directory for Autoprefixer processing
-      stageCss: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
-        }]
       }
     },
     rev: {
@@ -342,12 +305,11 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
-        'sass:server',
-        'copy:stageCss',
+        'compass:server',
         'jekyll:server'
       ],
       dist: [
-        'sass:dist',
+        'compass:dist',
         'copy:dist'
       ]
     }
@@ -362,7 +324,6 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer:server',
       'connect:livereload',
       'open',
       'watch'
@@ -378,7 +339,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('check', [
     'clean:server',
-    'sass:server',
+    'compass:server',
     'jshint:all',
     'csscss:check',
     'csslint:check'
@@ -391,7 +352,6 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'autoprefixer:dist',
     'cssmin',
     'uglify',
     'imagemin',
