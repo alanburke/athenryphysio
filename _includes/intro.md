@@ -3,7 +3,7 @@ Welcome to Athenry Physiotherapy &amp; Performance clinic, located within the ne
 
 The physiotherapy clinic was founded by Jane-Ann Meehan in April 2011 and has subsequently developed into a specialised multidisciplinary service. The clinic provides four private treatment rooms and an open plan gym/rehabilitation area.
 
-A variety of physiotherapy services are provided including sports specific performance screening, women’s health physiotherapy, Pilates classes and many more (<a href="/classes.html">see class list</a>).
+A variety of physiotherapy services are provided including sports specific performance screening, women’s health physiotherapy, Pilates classes and many more ([see class list](/classes.html)).
 
 In addition to these physiotherapy services we provide nutritional screening, advice and assessments with Ruth Kilcawley (<a href="http://www.foodnutrition.ie">www.foodnutrition.ie</a>).
 
