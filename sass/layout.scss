@@ -15,6 +15,7 @@
     .intro,
     .secondary {
       @include span-columns(6 omega, $medium-cols);
+      margin-top: 1em;
     }
     .primary{
       clear: both;

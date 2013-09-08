@@ -9,16 +9,45 @@
 @import "foundation/components/buttons";
 @import "foundation/components/button-groups";
 
-@import "compass/typography/lists/horizontal-list";
+@import "compass/typography";
+@import "compass/utilities";
+@import "compass/css3";
+
+@import 'susy';
+
+/* Logo */
+header{
+  h1 {
+    @include replace-text-with-dimensions('logo-txt.png', 0, 0);
+  }
+  h2 {
+    font-size: $h3-font-size;
+    strong {
+      color: $strong-red;
+      font-size: 1.25em;
+    }
+    @include at-breakpoint($medium) {
+      text-align: center;
+    }
+  }
+}
 
 /* Secondary Nav */
 .secondary{
   @include horizontal-list;
+  @include at-breakpoint($large) {
+    ul {
+      padding-left: 6em;
+    }
+  }
   li {
-    border-right: solid 2px black;
+    border-right: solid 2px $strong-red;
     padding: 0 10px;
     &:last-child{
       border-right: 0;
+    }
+    a {
+      @include link-colors($light-gray);
     }
   }
 }
@@ -27,10 +56,62 @@
 .primary {
   @include horizontal-list;
   li {
+    background: $off-black;
+    width: 33%;
+    white-space: normal;
+    border: solid 2px white;
+    a {
+      @include link-colors(white);
+      font-weight: bold;
+      display: block;
+      padding: 0.15em;
+      height: 4em;
+    }
+    // Set colours and position [with padding]
+    &:nth-child(1){ background: $pink;      a { padding: 2em 0 0 0.5em; }}
+    &:nth-child(2){ background: $acqua;     a { padding: 0.15em 0 0 0.15em; }}
+    &:nth-child(3){ background: $off-black; a { padding: 0.5em 0 0 0.15em; }}
+    &:nth-child(4){ background: $lime;      a { padding: 0.15em 0 0 1.5em; }}
+    &:nth-child(5){ background: $orange;    a { padding: 1em 0 0 0.5em; }}
+    &:nth-child(6){ background: $purple;    a { padding: 2em 0 0 2em; }}
+
+    @include border-radius(7px);
     &:nth-child(3n+1) {
       clear: both;
     }
   }
+}
+.page {
+  @include at-breakpoint($medium) {
+    .primary {
+      background: image-url('blocks-1.png') 100% 0 no-repeat;
+      ul {
+        width: 40%;
+        display: block;
+      }
+    }
+  }
+  @include at-breakpoint($large) {
+    .primary li {
+      height: 7.35em;
+      // Set position [with padding]
+      &:nth-child(1){ a { padding: 5em 0 0 0.5em; }}
+      &:nth-child(2){ a { padding: 1em 0 0 0.15em; }}
+      &:nth-child(3){ a { padding: 3em 0 0 0.5em; }}
+      &:nth-child(4){ a { padding: 0.15em 0 0 1.5em; }}
+      &:nth-child(5){ a { padding: 1em 0 0 0.5em; }}
+      &:nth-child(6){ a { padding: 2em 0 0 2em; }}
+    }
+  }
+}
+
+footer p {
+  color: white;
+  @include border-radius(5px);
+  background: $strong-red;
+  padding: 1em 2em;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 /* Fix for IE */
