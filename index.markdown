@@ -1,9 +1,11 @@
 ---
 layout: default
 permalink: index.html
+published: true
 ---
+
 <section>
-  {% include intro.html %}
+  {% include intro.md %}
 </section>
 
 <aside>
