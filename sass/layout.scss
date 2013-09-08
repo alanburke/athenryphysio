@@ -5,7 +5,8 @@ $column-width   : 4em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
-$medium: 10;
+$medium: 10 lt-ie9;
+$medium-cols: 10;
 $large: 12;
 
 .page {
@@ -13,14 +14,15 @@ $large: 12;
   @include susy-grid-background;
 }
 
+.page {
 @include at-breakpoint($medium) {
   header{
     h1 {
-      @include span-columns(4, $medium);
+      @include span-columns(4, $medium-cols);
     }
     .intro,
     .secondary {
-      @include span-columns(6 omega, $medium);
+      @include span-columns(6 omega, $medium-cols);
     }
     .primary{
       clear: both;
@@ -29,16 +31,16 @@ $large: 12;
   main {
     section {
       @include pre(0.5);
-      @include span-columns(6, $medium);
+      @include span-columns(6, $medium-cols);
       @include post(0.5);
 
     }
     aside {
-      @include span-columns(3 omega, $medium);
-
+      @include span-columns(3 omega, $medium-cols);
     }
   }
  footer {
   clear: both;
  }
+}
 }
