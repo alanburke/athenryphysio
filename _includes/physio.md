@@ -1,4 +1,4 @@
-#PHYSIOTHERAPY
+#Physiotherapy
 ###A variety of physiotherapy services are provided including:
 
 - Clinical Pilates
