@@ -9,5 +9,5 @@ published: true
 </section>
 
 <aside>
-  {% include intro-aside.html %}
+  {% include intro-aside.md %}
 </aside>
