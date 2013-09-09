@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: index.html
+published: true
+---
+<section>
+  {% capture intro %}
+  {% include intro.md %}
+  {% endcapture %}
+  {{ intro | unindent | markdownify }}
+</section>
+<aside>
+  {% capture aside %}
+  {% include intro-aside.md %}
+  {% endcapture %}
+  {{ aside | unindent | markdownify }}
+</aside>
