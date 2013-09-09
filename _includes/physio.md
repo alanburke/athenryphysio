@@ -1,0 +1,14 @@
+#PHYSIOTHERAPY
+###A variety of physiotherapy services are provided including:
+
+- Clinical Pilates
+- Women’s Health
+- Sports Specific Classes
+- Neck and Back Pain
+- Sports Injuries
+- Chronic Joint Stiffness
+- Post Operative Rehabilitation
+- Biomechanical Screening / Gait Analysis
+- Orthotic Prescription
+- Dry Needling
+- GP Referrals
