@@ -1,3 +1,8 @@
 name: Your New Jekyll Site
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
 baseurl: "http://athenryphysio.cycletraffic.com"
+prose:
+  rooturl: '_includes'
+  siteurl: 'http://athenryphysio.cycletraffic.com/'
