@@ -49,7 +49,10 @@
   </main>
 
   <footer>
-    {% include footer.html %}
+    {% capture footer %}
+    {% include footer.md %}
+    {% endcapture %}
+    {{ footer | unindent | markdownify }}
   </footer>
 
 
