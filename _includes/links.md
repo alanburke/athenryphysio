@@ -1,0 +1,8 @@
+- [VHI](https://www.vhi.ie)
+- [Aviva](http://www.aviva.ie)
+- [Laya Healthcare](http://www.layahealthcare.ie/)
+- [Renenue](http://www.revenue.ie)
+- [Athenry AC](http://www.athenryac.com)
+- [Runireland](http://www.runireland.com)
+- [Athletics Ireland](http://www.athleticsireland.ie)
+- [Triathlon Ireland](http://www.triathlonireland.com/)
