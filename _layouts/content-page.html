@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+{% if page.image %} 
 <figure>
-  <img src="" />
+  <img src="/media/{{ page.image }}" />
 </figure>
+{% endif %}
 <section>
   {{ content }}
 </section>
