@@ -1,0 +1,12 @@
+#Ruth Kilcawley
+Ruth Kilcawley is a Consultant Dietitian specializing in performance nutrition, weight management and mental health.
+
+She is an advocate of using evidence based body composition measurements, specialist dietary counseling skills and holistic nutritional advice to support clients in achieving their goals. Her clietns include the Grandslam winning national womens rugby squad, Connacht Rugby, Mayo Senior Football Team. She is the Lead Performance Nutritionist with Athletics Ireland.
+
+She have a proven track record of over ten years in clinical dietetics focusing on paediatrics, primary care nutrition and mental health services though she has also worked across the spectrum of acute medical fields such as cardiology, endocrinology, weight management, and gastroenterology. She is trained in a range of therapeutic techniques including Cognitive Behavior Therapy & Motivational Interviewing which are proven to support clients in ‘making change permanent’
+
+Confidentiality, trust, professional practice and good communication are very important in her practice.
+
+Graduating through Trinity College Dublin with BSc Human Nutrition & Dietetics (Hons) and DIT with Dip Dietetics (Hons) in 2001, she is a member of the Irish Nutrition & Dietetic Institute and a professional member of the Irish Institute of Sport.
+
+Sligo born, she lives with her husband and children in Athenry, where she is an active member of Athenry Athletics Club and Galway Triathlon Club.
