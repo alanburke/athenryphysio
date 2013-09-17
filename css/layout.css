@@ -1,8 +1,8 @@
 /* line 4, ../sass/layout.scss */
 .page {
   *zoom: 1;
-  max-width: 26em;
-  _width: 26em;
+  max-width: 23em;
+  _width: 23em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
@@ -14,40 +14,29 @@
   display: table;
   clear: both;
 }
-@media (min-width: 53em) {
+@media (min-width: 47em) {
   /* line 4, ../sass/layout.scss */
   .page {
-    max-width: 53em;
+    max-width: 47em;
   }
 }
 /* line 91, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
 .lt-ie9 .page {
-  max-width: 53em;
-  _width: 53em;
-}
-@media (min-width: 62em) {
-  /* line 4, ../sass/layout.scss */
-  .page {
-    max-width: 62em;
-  }
-}
-/* line 91, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_media.scss */
-.lt-ie9 .page {
-  max-width: 62em;
-  _width: 62em;
+  max-width: 47em;
+  _width: 47em;
 }
 
-@media (min-width: 53em) {
+@media (min-width: 47em) {
   /* line 12, ../sass/layout.scss */
   .page header h1 {
-    width: 38.63636%;
+    width: 38.46154%;
     float: left;
-    margin-right: 2.27273%;
+    margin-right: 2.5641%;
   }
   /* line 16, ../sass/layout.scss */
   .page header .intro,
   .page header .secondary {
-    width: 59.09091%;
+    width: 58.97436%;
     float: right;
     margin-right: 0;
     margin-top: 1em;
@@ -58,15 +47,15 @@
   }
   /* line 25, ../sass/layout.scss */
   .page main section {
-    margin-left: 3.30189%;
-    width: 59.09091%;
+    margin-left: 3.19149%;
+    width: 58.97436%;
     float: left;
-    margin-right: 2.27273%;
-    margin-right: 3.30189%;
+    margin-right: 2.5641%;
+    margin-right: 3.19149%;
   }
   /* line 31, ../sass/layout.scss */
   .page main aside {
-    width: 28.40909%;
+    width: 28.20513%;
     float: right;
     margin-right: 0;
   }
@@ -77,15 +66,15 @@
 }
 /* line 12, ../sass/layout.scss */
 .lt-ie9 .page header h1 {
-  width: 38.63636%;
+  width: 38.46154%;
   float: left;
-  margin-right: 2.27273%;
+  margin-right: 2.5641%;
   display: inline;
 }
 /* line 16, ../sass/layout.scss */
 .lt-ie9 .page header .intro,
 .lt-ie9 .page header .secondary {
-  width: 59.09091%;
+  width: 58.97436%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
@@ -98,16 +87,16 @@
 }
 /* line 25, ../sass/layout.scss */
 .lt-ie9 .page main section {
-  margin-left: 3.30189%;
-  width: 59.09091%;
+  margin-left: 3.19149%;
+  width: 58.97436%;
   float: left;
-  margin-right: 2.27273%;
+  margin-right: 2.5641%;
   display: inline;
-  margin-right: 3.30189%;
+  margin-right: 3.19149%;
 }
 /* line 31, ../sass/layout.scss */
 .lt-ie9 .page main aside {
-  width: 28.40909%;
+  width: 28.20513%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
