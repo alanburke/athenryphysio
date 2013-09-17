@@ -2,12 +2,12 @@
 @import 'settings';
 
 .page {
-  @include container($total-columns, $medium, $large);
+  @include container($total-columns, $large);
   //@include susy-grid-background;
 }
 
 .page {
-@include at-breakpoint($medium) {
+@include at-breakpoint($large) {
   header{
     h1 {
       @include span-columns(4, $medium-cols);

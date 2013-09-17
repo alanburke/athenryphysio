@@ -26,9 +26,7 @@ header{
       color: $strong-red;
       font-size: 1.25em;
     }
-    @include at-breakpoint($medium) {
-      text-align: center;
-    }
+    text-align: center;
   }
 }
 
@@ -82,11 +80,12 @@ header{
   }
 }
 .page {
-  @include at-breakpoint($medium) {
+  @include at-breakpoint($large) {
     .primary {
       background: image-url('blocks-1.png') 100% 0 no-repeat;
+      margin: 0 11px;
       ul {
-        width: 40%;
+        width: 50%;
         display: block;
       }
     }
