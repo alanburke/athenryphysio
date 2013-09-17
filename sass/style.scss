@@ -61,6 +61,7 @@ header{
     a {
       @include link-colors(white);
       font-weight: bold;
+      font-size: 0.9em;
       display: block;
       padding: 0.15em;
       height: 4em;
@@ -108,8 +109,8 @@ footer p {
   color: white;
   @include border-radius(5px);
   background: $strong-red;
-  padding: 1em 2em;
-  font-size: 0.8em;
+  padding: 1em 0.5em;
+  font-size: 0.75em;
   text-align: center;
 }
 
