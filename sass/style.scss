@@ -106,6 +106,15 @@ header{
   }
 }
 
+/* Images */
+main figure {
+  img {
+    padding: 0.5em;
+    margin: 1em;
+    box-shadow: 0 0 10px #111;
+  }
+}
+
 footer p {
   color: white;
   @include border-radius(5px);
