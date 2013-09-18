@@ -4,5 +4,5 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
 baseurl: "http://athenryphysio.cycletraffic.com"
 prose:
-  rooturl: '_includes'
+  rooturl: '_posts'
   siteurl: 'http://athenryphysio.cycletraffic.com/'
