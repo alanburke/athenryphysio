@@ -61,3 +61,25 @@ footer {
   }
 }
 }
+
+// Standard
+.page.team {
+@include at-breakpoint($large) {
+  main {
+    section {
+      @include span-columns(5.5 omega, $large-cols);
+      @include post(0.5);
+    }
+    nav {
+      @include pre(0.25);
+      @include span-columns(2.5, $large-cols);
+      @include post(0.25);
+    }
+    figure {
+      @include pre(0.25);
+      @include span-columns(2.5, $large-cols);
+      @include post(0.25);
+    }
+  }
+}
+}
