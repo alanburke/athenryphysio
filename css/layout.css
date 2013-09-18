@@ -26,83 +26,177 @@
   _width: 47em;
 }
 
+/* line 8, ../sass/layout.scss */
+main {
+  margin: 1em 0;
+}
+
+/* line 11, ../sass/layout.scss */
+footer {
+  clear: both;
+}
+
 @media (min-width: 47em) {
-  /* line 12, ../sass/layout.scss */
+  /* line 18, ../sass/layout.scss */
   .page header h1 {
-    width: 38.46154%;
+    width: 40.42553%;
     float: left;
-    margin-right: 2.5641%;
+    margin-right: 2.12766%;
   }
-  /* line 16, ../sass/layout.scss */
+  /* line 22, ../sass/layout.scss */
   .page header .intro,
   .page header .secondary {
-    width: 58.97436%;
+    width: 57.44681%;
     float: right;
     margin-right: 0;
     margin-top: 1em;
   }
-  /* line 20, ../sass/layout.scss */
+  /* line 26, ../sass/layout.scss */
   .page header .primary {
     clear: both;
   }
-  /* line 25, ../sass/layout.scss */
-  .page main section {
-    margin-left: 3.19149%;
-    width: 58.97436%;
-    float: left;
-    margin-right: 2.5641%;
-    margin-right: 3.19149%;
-  }
-  /* line 31, ../sass/layout.scss */
-  .page main aside {
-    width: 28.20513%;
-    float: right;
-    margin-right: 0;
-  }
-  /* line 35, ../sass/layout.scss */
-  .page footer {
-    clear: both;
-  }
 }
-/* line 12, ../sass/layout.scss */
+/* line 18, ../sass/layout.scss */
 .lt-ie9 .page header h1 {
-  width: 38.46154%;
+  width: 40.42553%;
   float: left;
-  margin-right: 2.5641%;
+  margin-right: 2.12766%;
   display: inline;
 }
-/* line 16, ../sass/layout.scss */
+/* line 22, ../sass/layout.scss */
 .lt-ie9 .page header .intro,
 .lt-ie9 .page header .secondary {
-  width: 58.97436%;
+  width: 57.44681%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
   margin-top: 1em;
 }
-/* line 20, ../sass/layout.scss */
+/* line 26, ../sass/layout.scss */
 .lt-ie9 .page header .primary {
   clear: both;
 }
-/* line 25, ../sass/layout.scss */
-.lt-ie9 .page main section {
+
+@media (min-width: 47em) {
+  /* line 36, ../sass/layout.scss */
+  .page.home main section {
+    margin-left: 3.19149%;
+    width: 57.44681%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-right: 3.19149%;
+  }
+  /* line 42, ../sass/layout.scss */
+  .page.home main aside {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 36, ../sass/layout.scss */
+.lt-ie9 .page.home main section {
   margin-left: 3.19149%;
-  width: 58.97436%;
+  width: 57.44681%;
   float: left;
-  margin-right: 2.5641%;
+  margin-right: 2.12766%;
   display: inline;
   margin-right: 3.19149%;
 }
-/* line 31, ../sass/layout.scss */
-.lt-ie9 .page main aside {
-  width: 28.20513%;
+/* line 42, ../sass/layout.scss */
+.lt-ie9 .page.home main aside {
+  width: 31.91489%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
 }
-/* line 35, ../sass/layout.scss */
-.lt-ie9 .page footer {
-  clear: both;
+
+@media (min-width: 47em) {
+  /* line 52, ../sass/layout.scss */
+  .page.standard main section {
+    width: 54.25532%;
+    float: right;
+    margin-right: 0;
+    margin-right: 3.19149%;
+  }
+  /* line 56, ../sass/layout.scss */
+  .page.standard main figure {
+    margin-left: 3.19149%;
+    width: 31.91489%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-right: 3.19149%;
+  }
+}
+/* line 52, ../sass/layout.scss */
+.lt-ie9 .page.standard main section {
+  width: 54.25532%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+  margin-right: 3.19149%;
+}
+/* line 56, ../sass/layout.scss */
+.lt-ie9 .page.standard main figure {
+  margin-left: 3.19149%;
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  margin-right: 3.19149%;
+}
+
+@media (min-width: 47em) {
+  /* line 69, ../sass/layout.scss */
+  .page.team main section {
+    width: 45.74468%;
+    float: right;
+    margin-right: 0;
+    margin-right: 3.19149%;
+  }
+  /* line 73, ../sass/layout.scss */
+  .page.team main nav {
+    margin-left: 1.59574%;
+    width: 20.21277%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-right: 1.59574%;
+  }
+  /* line 78, ../sass/layout.scss */
+  .page.team main figure {
+    margin-left: 1.59574%;
+    width: 20.21277%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-right: 1.59574%;
+  }
+}
+/* line 69, ../sass/layout.scss */
+.lt-ie9 .page.team main section {
+  width: 45.74468%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+  margin-right: 3.19149%;
+}
+/* line 73, ../sass/layout.scss */
+.lt-ie9 .page.team main nav {
+  margin-left: 1.59574%;
+  width: 20.21277%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  margin-right: 1.59574%;
+}
+/* line 78, ../sass/layout.scss */
+.lt-ie9 .page.team main figure {
+  margin-left: 1.59574%;
+  width: 20.21277%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  margin-right: 1.59574%;
 }
