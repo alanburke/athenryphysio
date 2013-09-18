@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: full
 permalink: timetable.html
 ---
 |          | 9am   | 10am  | 11am |
