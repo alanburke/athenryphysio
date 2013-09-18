@@ -1,7 +1,0 @@
-#Classes:
-###A range of classes are provided including:
-- Clinical Pilates
-- Ante/post natal classes
-- Sports specific strength training
-
-[Class timetable](/timetable.html)
