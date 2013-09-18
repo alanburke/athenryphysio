@@ -1187,13 +1187,13 @@ $h4-font-size: emCalc(18);
 
 // $table-border-style: solid;
 // $table-border-size: 1px;
-// $table-border-color: #ddd;
+$table-border-color: $orange;
 
 // These control the table head styles
 
-// $table-head-bg: #f5f5f5;
+$table-head-bg: $strong-red;
 // $table-head-font-size: emCalc(14);
-// $table-head-font-color: #222;
+$table-head-font-color: $light-gray;
 // $table-head-font-weight: bold;
 // $table-head-padding: emCalc(8, 10, 10);
 
