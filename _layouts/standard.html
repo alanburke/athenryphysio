@@ -1,11 +1,14 @@
 ---
 layout: default
+layout_class: standard
 ---
-{% if page.image %} 
-<figure>
-  <img src="/media/{{ page.image }}" />
-</figure>
-{% endif %}
-<section>
-  {{ content }}
-</section>
+<main>
+  {% if page.image %} 
+  <figure>
+    <img src="/media/{{ page.image }}" />
+  </figure>
+  {% endif %}
+  <section>
+    {{ content }}
+  </section>
+</main>

@@ -16,7 +16,7 @@
   <script src="javascript/vendor/custom.modernizr.js"></script>
 
 </head>
-<body><div class="page">
+<body><div class="page {{ page.layout_class}}">
   
   <header>
     <h1>Athenry Physiotherapy &amp; Performance Clinic</h1>
@@ -44,9 +44,7 @@
 
   </header>
 
-  <main>
-      {{ content }}
-  </main>
+   {{ content }}
 
   <footer>
     {% capture footer %}
