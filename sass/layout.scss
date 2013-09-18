@@ -6,34 +6,56 @@
   //@include susy-grid-background;
 }
 
+footer {
+clear: both;
+}
+
 .page {
 @include at-breakpoint($large) {
   header{
     h1 {
-      @include span-columns(4, $medium-cols);
+      @include span-columns(5, $large-cols);
     }
     .intro,
     .secondary {
-      @include span-columns(6 omega, $medium-cols);
+      @include span-columns(7 omega, $large-cols);
       margin-top: 1em;
     }
     .primary{
       clear: both;
     }
   }
+}
+}
+// Homepage
+.page.home {
+@include at-breakpoint($large) {
   main {
     section {
       @include pre(0.5);
-      @include span-columns(6, $medium-cols);
+      @include span-columns(7, $large-cols);
       @include post(0.5);
 
     }
     aside {
-      @include span-columns(3 omega, $medium-cols);
+      @include span-columns(4 omega, $large-cols);
     }
   }
- footer {
-  clear: both;
- }
+}
+}
+// Standard
+.page.standard {
+@include at-breakpoint($large) {
+  main {
+    section {
+      @include span-columns(6.5 omega, $large-cols);
+      @include post(0.5);
+    }
+    figure {
+      @include pre(0.5);
+      @include span-columns(4, $large-cols);
+      @include post(0.5);
+    }
+  }
 }
 }
