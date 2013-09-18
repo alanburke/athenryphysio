@@ -113,11 +113,25 @@ header{
 main figure {
   img {
     padding: 0.5em;
-    margin: 1em;
     box-shadow: 0 0 10px #111;
   }
 }
+/* Main text */
+section > h1:first-child {
+  text-transform: uppercase;
+  color: $light-gray;
+}
 
+/* Home page */
+.home aside {
+  font-size: 0.9em;
+}
+
+/* Timetable */
+table td {
+  border: solid 1px $orange;
+  width: 100%;
+}
 footer p {
   color: white;
   @include border-radius(5px);
@@ -125,6 +139,9 @@ footer p {
   padding: 1em 0.5em;
   font-size: 0.75em;
   text-align: center;
+  a {
+    @include link-colors($orange);
+  }
 }
 
 /* Fix for IE */
