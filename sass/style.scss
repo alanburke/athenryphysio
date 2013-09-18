@@ -90,6 +90,9 @@ header{
         width: 50%;
         display: block;
       }
+      // Changeable background headers
+      &.hands { background-image: image-url('blocks-hands.png'); }
+
     }
   }
   @include at-breakpoint($large) {
