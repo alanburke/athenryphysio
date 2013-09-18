@@ -3,18 +3,18 @@ layout: default
 layout_class: team
 ---
 <main>
+  <section>
+    {{ content }}
+  </section>
+  {% if page.image %} 
   <nav class="team">
     <ul>
       <li><a href="/jane-ann.html">Jane-Ann Meehan</a></li>
       <li><a href="/ruth.html">Ruth Kilcawley</a></li>
     </ul>
   </nav>
-  {% if page.image %} 
   <figure>
     <img src="/media/{{ page.image }}" />
   </figure>
   {% endif %}
-  <section>
-    {{ content }}
-  </section>
 </main>
