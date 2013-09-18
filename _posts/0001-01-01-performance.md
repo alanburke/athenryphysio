@@ -1,5 +1,5 @@
 ---
-layout: content-page
+layout: standard
 permalink: performance.html
 ---
 #Sports Performance
