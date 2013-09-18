@@ -5,9 +5,11 @@
   @include container($total-columns, $large);
   //@include susy-grid-background;
 }
-
+main {
+  margin: 1em 0;
+}
 footer {
-clear: both;
+  clear: both;
 }
 
 .page {
