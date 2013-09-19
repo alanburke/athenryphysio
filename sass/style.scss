@@ -144,6 +144,23 @@ footer p {
   }
 }
 
+/* Links */
+@import "compass/utilities/sprites";
+@import "logos/*.png"; /* */
+@include all-logos-sprites;
+.links-page main ul {
+  @include inline-block-list;
+  li a {
+    @include hide-text();
+    display: block;
+    width: 150px;
+    height: 150px;
+  }
+}
+a[href*="athenryac"]        { @extend .logos-athenryac; }
+a[href*="aviva"]            { @extend .logos-aviva; }
+a[href*="athleticsireland"] { @extend .logos-aai; }
+
 /* Fix for IE */
 .lt-ie9{
   h1 { font-size: $h1-font-size; }
