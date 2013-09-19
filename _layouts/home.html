@@ -7,11 +7,15 @@ layout_class: home
     {{ content }}
   </section>
 <aside>
+  <h3>{{ page.aside_header }} </h3>
   {% if page.image %} 
-  <figure>
-    <img src="/media/{{ page.image }}" />
-  </figure>
+  <a href="{{ page.modal_url }}" data-reveal-id="popModal">
+    <figure>
+      <img src="/media/{{ page.image }}" />
+    </figure>
+  </a>
   {% endif %}
+
   <p> {{ page.aside }} </p>
 </aside>
 </main>
