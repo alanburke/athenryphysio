@@ -126,6 +126,25 @@ section > h1:first-child {
 .home aside {
   font-size: 0.9em;
 }
+/* Team */
+nav.team h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+nav.team ul {
+  list-style: none;
+  li a {
+    $padding: $button-sml;
+    $bg: $lime;
+    $radius: true;
+    $full-width: true;
+    $disabled: false;
+    $is-input: false;
+    @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
+  }
+}
+
+
 
 /* Timetable */
 table td {
