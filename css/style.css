@@ -1709,14 +1709,63 @@ section > h1:first-child {
   font-size: 0.9em;
 }
 
+/* Team */
+/* line 130, ../sass/style.scss */
+nav.team h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 134, ../sass/style.scss */
+nav.team ul {
+  list-style: none;
+}
+/* line 136, ../sass/style.scss */
+nav.team ul li a {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.5625em;
+  padding-right: 1.125em;
+  padding-bottom: 0.625em;
+  padding-left: 1.125em;
+  font-size: 0.8125em;
+  padding-top: 0.5625em;
+  padding-bottom: 0.625em;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%;
+  background-color: #97cc73;
+  border-color: #7bbe4e;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 122, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+nav.team ul li a:hover, nav.team ul li a:focus {
+  background-color: #7bbe4e;
+}
+/* line 133, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+nav.team ul li a:hover, nav.team ul li a:focus {
+  color: white;
+}
+
 /* Timetable */
-/* line 131, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 table td {
   border: solid 1px #fda846;
   width: 100%;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 footer p {
   color: white;
   -webkit-border-radius: 5px;
@@ -1729,25 +1778,78 @@ footer p {
   font-size: 0.75em;
   text-align: center;
 }
-/* line 142, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 footer p a {
   color: #fda846;
 }
 
+/* Links */
+/* line 58, logos/*.png */
+.logos-sprite, .logos-aai, a[href*="athleticsireland"], .logos-athenryac, a[href*="athenryac"], .logos-aviva, a[href*="aviva"] {
+  background: url('../images/logos-sf48fd006b9.png') no-repeat;
+}
+
+/* */
+/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.logos-aai, a[href*="athleticsireland"] {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.logos-athenryac, a[href*="athenryac"] {
+  background-position: 0 -454px;
+}
+
+/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.logos-aviva, a[href*="aviva"] {
+  background-position: 0 -283px;
+}
+
+/* line 170, ../sass/style.scss */
+.links-page main ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+.links-page main ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  white-space: nowrap;
+}
+/* line 172, ../sass/style.scss */
+.links-page main ul li a {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
 /* Fix for IE */
-/* line 149, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .lt-ie9 h1 {
   font-size: 1.5em;
 }
-/* line 150, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .lt-ie9 h2 {
   font-size: 1.25em;
 }
-/* line 151, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .lt-ie9 h3 {
   font-size: 1.0625em;
 }
-/* line 152, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .lt-ie9 h4 {
   font-size: 1.125em;
 }
