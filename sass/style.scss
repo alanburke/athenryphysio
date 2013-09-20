@@ -110,7 +110,7 @@ header{
 }
 
 /* Images */
-main figure {
+figure {
   img {
     padding: 0.5em;
     box-shadow: 0 0 10px #111;
@@ -167,7 +167,7 @@ footer p {
 @import "compass/utilities/sprites";
 @import "logos/*.png"; /* */
 @include all-logos-sprites;
-.links-page main ul {
+.links-page section ul {
   @include inline-block-list;
   li a {
     @include hide-text();
@@ -176,9 +176,9 @@ footer p {
     height: 150px;
   }
 }
-a[href*="athenryac"]        { @extend .logos-athenryac; }
-a[href*="aviva"]            { @extend .logos-aviva; }
-a[href*="athleticsireland"] { @extend .logos-aai; }
+a[href="http://www.athenryac.com"]        { @extend .logos-athenryac; }
+a[href="http://www.aviva.ie"]            { @extend .logos-aviva; }
+a[href="http://www.athleticsireland.ie"] { @extend .logos-aai; }
 
 /* Fix for IE */
 .lt-ie9{
