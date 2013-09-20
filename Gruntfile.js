@@ -21,10 +21,21 @@ module.exports = function(grunt) {
           cssDir: 'css'
         }
       }
-    }
+    },
+    watch: {
+      css: {
+        files: '**/*.scss',
+        tasks: ['compass'],
+        options: {
+          livereload: true,
+        },
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
 
   grunt.registerTask('default', ['compass']);
 };
