@@ -27,6 +27,9 @@ footer {
       clear: both;
     }
   }
+  main {
+    margin: 1em 11px;
+  }
 }
 }
 // Homepage
@@ -41,6 +44,9 @@ footer {
     }
     aside {
       @include span-columns(4 omega, $large-cols);
+      p {
+        margin-top: 1em;
+      }
     }
   }
 }
@@ -50,8 +56,7 @@ footer {
 @include at-breakpoint($large) {
   main {
     section {
-      @include span-columns(6.5 omega, $large-cols);
-      @include post(0.5);
+      @include span-columns(7 omega, $large-cols);
     }
     figure {
       @include pre(0.5);
@@ -67,18 +72,18 @@ footer {
 @include at-breakpoint($large) {
   main {
     section {
-      @include span-columns(5.5 omega, $large-cols);
-      @include post(0.5);
+      @include span-columns(7 omega, $large-cols);
     }
     nav {
-      @include pre(0.25);
-      @include span-columns(2.5, $large-cols);
-      @include post(0.25);
+      margin-top: 1em;
+      @include pre(0.5);
+      @include span-columns(4, $large-cols);
+      @include post(0.5);
     }
     figure {
-      @include pre(0.25);
-      @include span-columns(2.5, $large-cols);
-      @include post(0.25);
+      @include pre(0.5);
+      @include span-columns(4, $large-cols);
+      @include post(0.5);
     }
   }
 }
