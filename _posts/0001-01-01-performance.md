@@ -1,6 +1,8 @@
 ---
 layout: standard
 permalink: performance.html
+banner: kick
+image: sprint.jpg
 ---
 #Sports Performance
 ###A variety of sports performance services are provided including:

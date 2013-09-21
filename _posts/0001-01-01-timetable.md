@@ -1,5 +1,6 @@
 ---
 layout: full
+banner: class
 permalink: timetable.html
 ---
 |          | 9am   | 10am  | 11am |
