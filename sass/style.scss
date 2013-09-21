@@ -187,13 +187,19 @@ footer p {
   li a {
     @include hide-text();
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
+    margin: 15px;
   }
 }
-a[href="http://www.athenryac.com"]        { @extend .logos-athenryac; }
+a[href="https://www.vhi.ie"]        { @extend .logos-vhi; }
 a[href="http://www.aviva.ie"]            { @extend .logos-aviva; }
+a[href="http://www.layahealthcare.ie"]        { @extend .logos-laya; }
+a[href="http://www.revenue.ie"]        { @extend .logos-revenue; }
+a[href="http://www.athenryac.com"]        { @extend .logos-athenryac; }
+a[href="http://www.runireland.com"]        { @extend .logos-runireland; }
 a[href="http://www.athleticsireland.ie"] { @extend .logos-aai; }
+a[href="http://www.triathlonireland.com"] { @extend .logos-triathlonireland; }
 
 /* Fix for IE */
 .lt-ie9{
