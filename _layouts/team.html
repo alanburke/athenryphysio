@@ -7,6 +7,9 @@ layout_class: team
     {{ content }}
   </section>
   {% if page.image %} 
+  <figure>
+    <img src="/media/{{ page.image }}" />
+  </figure>
   <nav class="team">
     <h3>Our Team </h3>
     <ul>
@@ -14,8 +17,5 @@ layout_class: team
       <li><a href="/ruth.html">Ruth Kilcawley</a></li>
     </ul>
   </nav>
-  <figure>
-    <img src="/media/{{ page.image }}" />
-  </figure>
   {% endif %}
 </main>
