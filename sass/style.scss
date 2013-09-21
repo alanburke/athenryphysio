@@ -90,14 +90,20 @@ main section {
 .page {
   @include at-breakpoint($large) {
     .primary {
-      background: image-url('blocks-1.png') 100% 0 no-repeat;
+      background: image-url('blocks-situp.jpg') 100% 0 no-repeat;
       margin: 0 11px;
       ul {
         width: 50%;
         display: block;
       }
       // Changeable background headers
-      &.hands { background-image: image-url('blocks-hands.png'); }
+      &.situp { background-image: image-url('blocks-situp.jpg'); }
+      &.hands { background-image: image-url('blocks-hands.jpg'); }
+      &.kick { background-image: image-url('blocks-kick.jpg'); }
+      &.food { background-image: image-url('blocks-food.jpg'); }
+      &.treadmill { background-image: image-url('blocks-treadmill.jpg'); }
+      &.class { background-image: image-url('blocks-class.jpg'); }
+      &.spine { background-image: image-url('blocks-spine.jpg'); }
 
     }
   }
