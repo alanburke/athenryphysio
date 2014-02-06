@@ -2,6 +2,7 @@
 layout: standard
 permalink: publications.html
 banner: food
+image: shoulder.jpg
 ---
 #Publications
 
