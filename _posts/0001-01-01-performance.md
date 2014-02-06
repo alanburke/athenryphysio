@@ -3,7 +3,9 @@ layout: standard
 permalink: performance.html
 banner: kick
 image: sprint.jpg
+published: true
 ---
+
 #Sports Performance
 ###A variety of sports performance services are provided including:
 
@@ -11,3 +13,4 @@ image: sprint.jpg
 - Nutrition Service (www.foodnutrition.ie)
 - Taping
 - Pitch Side Cover
+- Podiatry Services
