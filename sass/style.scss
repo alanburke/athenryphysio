@@ -75,7 +75,7 @@ main section {
     }
     // Set colours and position [with padding]
     &:nth-child(1){ background: $pink;      a { padding: 2em 0 0 0.5em; }}
-    &:nth-child(2){ background: $acqua;     a { padding: 0.5em 0 0 0.15em; }}
+    &:nth-child(2){ background: $acqua;     a { padding: 0.4em 0 0 0.15em; }}
     &:nth-child(3){ background: $off-black; a { padding: 0.5em 0 0 0.15em; }}
     &:nth-child(4){ background: $lime;      a { padding: 0.5em 0 0 1.5em; }}
     &:nth-child(5){ background: $orange;    a { padding: 1em 0 0 0.5em; }}
