@@ -68,7 +68,7 @@ main section {
     a {
       font-family: $header-font-family;
       @include link-colors(white);
-      font-size: 0.9em;
+      font-size: 0.8em;
       display: block;
       padding: 0.15em;
       height: 4em;
@@ -77,9 +77,9 @@ main section {
     &:nth-child(1){ background: $pink;      a { padding: 2em 0 0 0.5em; }}
     &:nth-child(2){ background: $acqua;     a { padding: 0.5em 0 0 0.15em; }}
     &:nth-child(3){ background: $off-black; a { padding: 0.5em 0 0 0.15em; }}
-    &:nth-child(4){ background: $lime;      a { padding: 1.5em 0 0 1.5em; }}
+    &:nth-child(4){ background: $lime;      a { padding: 0.5em 0 0 1.5em; }}
     &:nth-child(5){ background: $orange;    a { padding: 1em 0 0 0.5em; }}
-    &:nth-child(6){ background: $purple;    a { padding: 2em 0 0 2em; }}
+    &:nth-child(6){ background: $purple;    a { padding: 2em 0 0 0.5em; }}
 
     @include border-radius(7px);
     &:nth-child(3n+1) {
@@ -116,7 +116,10 @@ main section {
       &:nth-child(3){ a { padding: 3em 0 0 0.5em; }}
       &:nth-child(4){ a { padding: 1.15em 0 0 1.5em; }}
       &:nth-child(5){ a { padding: 1em 0 0 0.5em; }}
-      &:nth-child(6){ a { padding: 2em 0 0 2em; }}
+      &:nth-child(6){ a { padding: 2em 0 0 1em; }}
+      a {
+        font-size: 0.9em;
+      }
     }
   }
 }
