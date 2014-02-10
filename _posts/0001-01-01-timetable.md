@@ -6,9 +6,11 @@ published: true
 ---
 
 ## Monday
-6.30-7.30 Clinical pilates
-8-9 Strength conditioning
-9-10 Strength performance
+6.30-7.30 Clinical pilates  
+
+8-9 Strength conditioning  
+
+9-10 Strength performance  
 ## Tuesday 
 6.30-7.30 & 7.30-8.30 Clinical pilates
 ## Wednesday 
