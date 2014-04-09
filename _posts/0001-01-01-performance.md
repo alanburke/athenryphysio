@@ -10,7 +10,8 @@ published: true
 ###A variety of sports performance services are provided including:
 
 - Athlete Screening
-- Nutrition Service (www.foodnutrition.ie)
+- Nutrition Service 
 - Taping
 - Pitch Side Cover
 - Podiatry Services
+- Orthotics (optimumorthotics.com)
