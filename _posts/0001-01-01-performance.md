@@ -14,4 +14,4 @@ published: true
 - Taping
 - Pitch Side Cover
 - Podiatry Services
-- Orthotics [optimumorthotics.com](optimumorthotics.com)
+- Orthotics [optimumorthotics.com](http://www.optimumorthotics.com)
