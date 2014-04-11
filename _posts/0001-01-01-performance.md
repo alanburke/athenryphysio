@@ -10,7 +10,6 @@ published: true
 ###A variety of sports performance services are provided including:
 
 - Athlete Screening
-- Nutrition Service 
 - Taping
 - Pitch Side Cover
 - Podiatry Services
