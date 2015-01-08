@@ -32,8 +32,12 @@ main {
 }
 
 /* line 11, ../sass/layout.scss */
+.subfooter,
 footer {
   clear: both;
+}
+.subfooter {
+  text-align: center;
 }
 
 @media (min-width: 47em) {
