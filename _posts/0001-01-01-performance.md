@@ -12,5 +12,5 @@ published: true
 - Athlete Screening
 - Taping
 - Pitch Side Cover
-- Podiatry Services
+- [Podiatry Services] (/david.html)
 - Orthotics [optimumorthotics.com](http://www.optimumorthotics.com)
