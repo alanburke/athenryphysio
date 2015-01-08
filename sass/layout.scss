@@ -8,8 +8,12 @@
 main {
   margin: 1em 0;
 }
+.subfooter,
 footer {
   clear: both;
+}
+.subfooter {
+  text-align: center;
 }
 
 .page {
