@@ -19,3 +19,8 @@ published: true
 10am-11am Clinical pilates
 ## Friday 
 2-3 Strength conditioning
+
+# Pilates
+Monday 5.45-6.45, 6.45-7.45
+Tuesday men only 6.30-7.30
+Thursday morning classes depending on demand.
