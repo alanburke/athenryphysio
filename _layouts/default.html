@@ -46,8 +46,10 @@
 
    {{ content }}
 
-  <div class="subfooter"><p>Keep an eye on <strong><a href="https://www.facebook.com/AthenryPhysioPerformanceClinic">Facebook</a></strong> for more updates.</p> </div>
-
+  <div class="subfooter">
+    <div class="fb-like" data-href="http://www.facebook.com/AthenryPhysioPerformanceClinic" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style='margin-bottom: 5px;'></div>
+    <p>Keep an eye on <strong><a href="https://www.facebook.com/AthenryPhysioPerformanceClinic">Facebook</a></strong> for more updates.</p> 
+  </div>
   <footer>
     {% capture footer %}
     {% include footer.md %}
@@ -61,6 +63,15 @@
     <script type="text/javascript" src="javascript/vendor/selectivizr/selectivizr-min.js"></script>
   <![endif]-->
   <script src="javascript/init.js"></script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=1624066377841173";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   
 </div></body>
 </html>
