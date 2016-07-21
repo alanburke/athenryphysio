@@ -2,7 +2,8 @@ name: Athenry Physiotheraphy
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
-baseurl: "http://www.athenryphysio.com"
+baseurl: ""
+host: 127.0.0.1
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.athenryphysio.com/'
