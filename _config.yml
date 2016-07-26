@@ -1,7 +1,5 @@
 name: Athenry Physiotheraphy
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
+markdown: kramdown 
 baseurl: ""
 host: 127.0.0.1
 prose:
