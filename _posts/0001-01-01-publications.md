@@ -4,7 +4,8 @@ permalink: publications.html
 banner: food
 image: shoulder.jpg
 ---
-#Publications
+
+# Publications
 
 ###[Hamstring tendonitis](/media/Hamstring-tendonitis.docx)
 
